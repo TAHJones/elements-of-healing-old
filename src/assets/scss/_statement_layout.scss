@@ -1,0 +1,98 @@
+/* -----------------------------------------------------------------------
+    statement - styles & responsive layout
+----------------------------------------------------------------------- */
+
+
+/* statement - breakpoint variables & mixin */
+
+// $small-breakpoint: em-calc(640) !default;
+// $statement-breakpoint-one: em-calc(730) !default;
+// $statement-breakpoint-two: em-calc(900) !default;
+// $medium-breakpoint: em-calc(1024) !default;
+
+
+/* @mixin statement-breakpoint($width) {
+  @if $width == breakOne {
+    @media only screen and (min-width: ($small-breakpoint + em-calc(1))) and (max-width: $statement-breakpoint-one){@content;}
+  }
+
+  @elseif $width == breakTwo {
+    @media only screen and (min-width: ($statement-breakpoint-one + em-calc(1))) and (max-width: $statement-breakpoint-two){@content;}
+  }
+
+  @else if $width == breakThree {
+    @media only screen and (min-width: ($statement-breakpoint-two + em-calc(1))) and (max-width: $medium-breakpoint){@content;}
+  }
+} */
+
+
+/* statement - class */
+
+.statement-styles {
+  > img {
+    @include border-effect;
+    height: 65%;
+    width: 65%;
+    margin: rem-calc(-20) auto rem-calc(30);
+    // margin-bottom: rem-calc(30) ;
+  }
+
+  @include breakpoint(smallish down) {
+    > img {
+      border: 0;
+      display: block;
+      // margin: rem-calc(20) auto 0;
+    }
+
+    > p {
+      font-size: rem-calc(13);
+      margin-top: rem-calc(30);
+      text-align: center;
+    }
+  }
+
+  @include breakpoint(640px) {
+    > img {
+      height: 100%;
+      width: 100%;
+      margin-top: rem-calc(-10);
+      margin-bottom: rem-calc(30);
+    }
+
+    > p {font-size: rem-calc(12);}
+  }
+
+  @include breakpoint(730px) {
+    > img {
+      height: 100%;
+      width: 100%;
+      margin-top: rem-calc(-10);
+      margin-bottom: rem-calc(30);
+    }
+
+    > p {margin-top: rem-calc(10);}
+  }
+
+  @include breakpoint(900px) {
+    > img {
+      height: 90%;
+      width: 90%;
+      margin-top: rem-calc(-10);
+      margin-bottom: rem-calc(30);
+    }
+
+    > p {margin-top: rem-calc(20);}
+  }
+
+  @include breakpoint(large) {
+    > img {
+      margin-top: rem-calc(0);
+      margin-bottom: rem-calc(40);
+    }
+    > p {
+      margin-top: rem-calc(40);
+      // margin-bottom: rem-calc(30);
+      font-size: rem-calc(16);
+    }
+  }
+}

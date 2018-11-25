@@ -1,0 +1,201 @@
+/* -----------------------------------------------------------------------
+    Elemental - styles & responsive layout
+------------------------------------------------------------------------- */
+
+/* elemental healing introduction - styles & responsive layout */
+
+.elemental-styles {
+  > img {
+    @include border-effect;
+
+    @include breakpoint(smallish down) {
+      display: inline-block;
+      height: 100%;
+      margin: rem-calc(20) auto;
+      width: 100%;
+    }
+
+    @include breakpoint(large) {
+      height: 85%;
+      margin-top: rem-calc(-30);
+      width: 85%;
+    }
+  }
+}
+
+
+/* poster - list font size variable */
+
+$poster-font-size-base: rem-calc(14);
+
+
+/* poster - list font size */
+
+ul.poster-list {
+  font-size: $poster-font-size-base;
+}
+
+
+/* poster - basic styles mixin */
+
+@mixin poster {
+  @include border-effect;
+  display: inline-block;
+  color: $black;
+  font-weight: bolder;
+  font-family: $primary-font-stack;
+  text-align: center;
+}
+
+
+/* poster-title - responsive mixin */
+
+@mixin poster-title ($font-size: 100%) {
+  font-size: $font-size;
+}
+
+/* poster-styles - responsive mixin */
+
+@mixin poster-styles ($font-size: 100%, $padding: 5% 5%) {
+  font-size: $font-size;
+  padding: $padding;
+  width: 100%;
+}
+
+
+/* poster-title - responsive title mixin */
+
+.poster-title {
+  margin-bottom: rem-calc(20);
+  font-weight: bolder;
+  text-align: center;
+
+  @include breakpoint(small) {
+    @include poster-title(100%);
+  }
+
+  @include breakpoint(smallish) {
+    @include poster-title(120%);
+  }
+
+  @include breakpoint(medium) {
+    @include poster-title(140%);
+  }
+
+  /* @include breakpoint(large) {
+    @include poster-title(160%);
+  }
+
+  @include breakpoint(xlarge) {
+    @include poster-title(160%);
+  } */
+}
+
+
+/* poster - responsive mixin styles */
+
+.poster-styles {
+  margin-bottom: rem-calc(20);
+
+  @include breakpoint(small) {
+    @include poster-styles(80%, 2% 0%);
+  }
+
+  @include breakpoint(smallish) {
+    @include poster-styles(100%, 5% 0%);
+  }
+
+  @include breakpoint(medium) {
+    @include poster-styles(100%, 4% 0%);
+  }
+
+  @include breakpoint(large) {
+    @include poster-styles(100%, 4% 0%);
+  }
+
+  @include breakpoint(xlarge) {
+    @include poster-styles(100%, 5% 2%);
+  }
+}
+
+/* poster - colors classes */
+
+.poster-lilac {
+  @include poster;
+  background-color: $lilac;
+}
+
+.poster-violet {
+  @include poster;
+  background-color: $violet;
+}
+
+.poster-blue {
+  @include poster;
+  background-color: $black;
+  background-image:
+    linear-gradient(
+      90deg,
+      darken($blue, 45%) 2%, //$black 1%,
+      darken($blue, 35%),
+      darken($blue, 45%) 98% //$black 99%
+    );
+  color: lighten($blue, 10%);
+}
+
+.poster-green {
+  @include poster;
+  background-color: $black;
+  background-image:
+    linear-gradient(
+      90deg,
+      darken($green, 35%) 2%, //$black 1%,
+      darken($green, 25%),
+      darken($green, 35%) 98% //$black 99%
+    );
+  color: lighten($green, 10%);
+}
+
+.poster-yellow {
+  @include poster;
+  background-color: $black;
+  background-image:
+    linear-gradient(
+      90deg,
+      darken($yellow, 30%) 2%, //$black 1%,
+      darken($yellow, 25%),
+      darken($yellow, 30%) 98% //$black 99%
+    );
+  color: lighten($yellow, 15%);
+}
+
+.poster-orange {
+  @include poster;
+  background-color: $orange;
+}
+
+.poster-red {
+  @include poster;
+  background-color: $black;
+  background-image:
+    linear-gradient(
+      90deg,
+      darken($red, 45%) 2%, //$black 1%,
+      darken($red, 30%),
+      darken($red, 45%) 98% //$black 99%
+    );
+  color: lighten($red, 10%);
+}
+
+.poster-magenta {
+  @include poster;
+  background-color: $black;
+  background-image:
+    linear-gradient(
+      90deg,
+      darken($magenta, 25%) 2%, //$black 1%,
+      darken($magenta, 15%),
+      darken($magenta, 25%) 98% //$black 99%
+    );
+  color: lighten($magenta, 20%);
+}

@@ -1,0 +1,168 @@
+/* -----------------------------------
+    Dropdown Menu
+  ----------------------------------- */
+
+  /* dropdown variables */
+
+  //$dropdown-bg-color: #344155;
+  $topbar-dropdown-link-bg:  #7dab4b;
+  $dropdown-title-bg: #aba8a8;
+  $dropdown-title-clr: #00314f;
+  $dropdown-title-clr-hover: #a40a70;
+  $dropdown-shadow-hover: rgba(255, 255, 255, 0.6);
+
+  $menu-item-color-active: $white;
+  $menu-item-background-active: map-get($foundation-palette, primary);
+
+  $dropdown-menu-item-color-active: $link-color-hover; //change default dropdown menu link color
+  $dropdown-menu-item-background-active: #8ccf42; //change default dropdown menu background color
+  $dropdownmenu-padding: rem-calc(15); //change default dropdown menu padding
+  $dropdownmenu-submenu-padding: rem-calc(14);  //change default dropdown submenu padding
+
+
+  /* dropdown classes */
+
+  #dropdown-menu {
+    background-color: $grey;
+    border: 4px solid lighten(#344155, 20%);
+    border-radius: 4px;
+    // border-style: solid;
+    margin: rem-calc(20) 0;
+    padding: rem-calc(30) rem-calc(20) rem-calc(30);
+    text-align: justify;
+
+    @include breakpoint(medium only) {
+      padding-left: rem-calc(30);
+      padding-right: rem-calc(30);
+    }
+
+    @include breakpoint(large) {
+      padding-left: rem-calc(60);
+      padding-right: rem-calc(60);
+    }
+
+    > h2 {
+      font-size: $header-size-large;
+      margin: rem-calc(10) 0 rem-calc(20);
+      text-align: center;
+    }
+
+    > h3 {
+      background-color: #344155;
+      border: #344155;
+      border-radius: 4px;
+      color: #7dab4b;
+      font-weight: 900;
+      margin-bottom: 6px;
+      padding: rem-calc(10);
+      text-align: center;
+
+      @include breakpoint(small) {
+        font-size: $font-size-xsmall;
+      }
+
+      @include breakpoint(smallish) {
+        font-size: $font-size-xsmall;
+      }
+
+      @include breakpoint(medium) {
+        font-size: $font-size-small;
+      }
+
+      @include breakpoint(large) {
+        font-size: $font-size-medium;
+      }
+
+      &:hover {
+        background-color: #7dab4b;
+        color: #344155;
+      }
+    }
+  }
+
+  /* jquery class for styling dropdown tab when visible */
+
+  .dropdown-tab {
+    margin: rem-calc(20) rem-calc(10) rem-calc(30);
+    > p {color: $tertiary-page-bg !important;}
+  }
+
+.top-bar {
+  .top-bar-left {padding-top: rem-calc(0);}
+  background: $dropdown-bg-color !important;
+  
+  ul {
+    background: $dropdown-bg-color !important;
+  
+    li {
+      background: $dropdown-bg-color !important;
+      
+      a {
+        color: $nav-link-color;
+        // padding: rem-calc(15);
+
+        @include breakpoint(small) {
+          font-size: rem-calc(12);
+        }
+
+        @include breakpoint(medium) {
+          font-size: rem-calc(15);
+        }
+
+        &:hover,
+        &:focus {
+          color: $link-color-hover;
+          background-color: $link-bg-hover;
+        }
+      }
+    }
+  }
+}
+
+ul.nav-bar > li {
+
+   > a {
+    color: $nav-link-color;
+    font-family: $primary-font-stack;
+    font-weight: bold;
+    height: 100%;
+    padding: rem-calc(15);
+
+    @include breakpoint(small) {
+      font-size: rem-calc(10);
+    }
+
+    @include breakpoint(medium) {
+      font-size: rem-calc(12);
+    }
+
+    @include breakpoint(large){
+      font-size: rem-calc(14);
+    }
+
+    &:hover,
+    &:focus {
+      color: $link-color-hover;
+    }
+
+    &:hover {
+      background-color: $link-bg-hover;
+    }
+  }
+}
+
+  .menu-button {
+    color: $menu-button-color;
+    margin: rem-calc(15);
+    font-weight: bold;
+    font-size: rem-calc(18);
+
+    @include breakpoint(small down) {
+      font-size: rem-calc(12);
+    }
+
+    &:hover {
+      color:$link-bg-hover;
+      // text-decoration: underline;
+    }
+  }

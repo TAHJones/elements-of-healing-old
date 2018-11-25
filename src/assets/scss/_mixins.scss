@@ -1,0 +1,146 @@
+/* -----------------------------------------------------------------------
+    mixins
+------------------------------------------------------------------------- */
+
+/* borders */
+
+@mixin border {
+  border: $black-border;
+  border-radius: 6px;
+  box-shadow: $border-shadow;
+}
+
+@mixin border-effect {
+  border: 4px solid $blue-border;
+  border-radius: 4px;
+  // box-shadow: $light-shadow;
+}
+
+@mixin image-border-effect {
+  border: $grey-border;
+  border-radius: 18px;
+  box-shadow: $dark-shadow;
+}
+
+
+@mixin blue-box {
+  background-color: $box-color-bg;
+}
+
+
+/* modified grid-row */
+
+// For creating a page container, which is a modified row.
+@mixin page-width($behavior: page) {
+
+  // use @include grid-row(page); to use a single row as page background
+  @if $behavior == page {
+    margin: 0 auto;
+    max-width: $page-width;
+    width: 100%;
+  }
+
+  // Clearfix for all rows
+  @include clearfix();
+}
+
+
+/* header mixins */
+
+@mixin header-styles($header-styles) {
+  font-weight: bold;
+
+  @if $header-styles == small {
+    color: $header-color;
+    font-family: $secondary-font-stack !important;
+    font-size: $header-size-small !important;
+    margin-bottom: $padding-medium;
+  }
+
+  @else if $header-styles == medium {
+    color: darken($header-color, 5%);
+    font-family: $secondary-font-stack !important;
+    font-size: $header-size-medium !important;
+    margin-bottom: $padding-small;
+  }
+
+  @else if $header-styles == large {
+    color: $header-color;
+    font-family: $secondary-font-stack !important;
+    font-size: $header-size-large !important;
+    margin-bottom: $padding-small;
+  }
+
+  @else if $header-styles == secondary {
+    color: $secondary-header-color;
+    font-family: $secondary-font-stack !important;
+    font-size: $header-size-medium;
+    margin-bottom: $margin-small;
+  }
+
+  @else if $header-styles == tertiary {
+    color: $secondary-header-color;
+    font-family: $primary-font-stack;
+    font-size: $header-size-medium;
+    margin-top: $margin-small;
+    margin-bottom: $margin-small;
+  }
+
+  @else if $header-styles == list {
+    font-family: $primary-font-stack;
+    font-size: rem-calc(10);
+    margin: rem-calc(3) 0 rem-calc(20);
+  }
+}
+
+/* list mixin */
+
+@mixin list-styles($list-styles) {
+  @if $list-styles == primary {
+    color: $secondary-font-color; //lighten($body-font-color, 15%);
+    font-family: $secondary-font-stack;
+    font-size: $font-size-medium;
+    font-style: italic;
+    list-style: none;
+    margin-bottom: $margin-small;
+  }
+
+  @else if $list-styles == secondary {
+    color: $primary-font-color;
+    font-family: $primary-font-stack;
+    font-size: $font-size-medium;
+    list-style: none;
+    margin-bottom: $margin-small;
+  }
+
+  @else if $list-styles == tertiary {
+    color: $secondary-font-color;
+    font-size: $font-size-large;
+    list-style-type: square;
+    margin-bottom: $margin-small;
+    margin-left: $margin-large;
+  }
+
+  @else if $list-styles == ordered {
+    color: lighten($body-font-color, 15%);
+    font-size: $font-size-small;
+    margin-bottom: $margin-small;
+    margin-left: $margin-small;
+  }
+}
+
+
+/* paragraph mixins */
+
+@mixin paragraph-responsive ($font-size: $font-size-small) {
+  font-size: $font-size;
+  font-weight: normal;
+  // font-family: $primary-font-stack;
+}
+
+@mixin paragraph-italic($font-size: $font-size-small) {
+  font-family: $secondary-font-stack;
+  font-size: $font-size;
+  font-style: italic;
+  text-align: left;
+}

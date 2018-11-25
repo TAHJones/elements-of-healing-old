@@ -1,0 +1,2902 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rgb",
+				"rgba	rgba()"
+			],
+			[
+				"margin",
+				"margin-medium"
+			],
+			[
+				"la",
+				"largeUp"
+			],
+			[
+				"sma",
+				"smallDown"
+			],
+			[
+				"med",
+				"medium"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"banner-font",
+				"banner-font-xsmall2small"
+			],
+			[
+				"banner-font-sma",
+				"banner-font-small2medium"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"bann",
+				"banner-font-large"
+			],
+			[
+				"fa",
+				"fadein-panel"
+			],
+			[
+				"fade",
+				"fadein-panel"
+			],
+			[
+				"fadein-list",
+				"fadein-list-layout"
+			],
+			[
+				"row",
+				"row-banner"
+			],
+			[
+				"ex",
+				"extend	@extend"
+			],
+			[
+				"fad",
+				"fadein"
+			],
+			[
+				"t",
+				"target	Attr"
+			],
+			[
+				"marg",
+				"margin-medium"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"dr",
+				"dropdown-menu"
+			],
+			[
+				"drop",
+				"dropdown-title"
+			],
+			[
+				"mar",
+				"margin-medium"
+			],
+			[
+				"nth",
+				"nth-of-type"
+			],
+			[
+				"row-page",
+				"row-page	ZURB Foundation Custom Wrapper"
+			],
+			[
+				"list",
+				"list-styles"
+			],
+			[
+				"sec",
+				"secondary"
+			],
+			[
+				"list-styl",
+				"list-styles"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"hed",
+				"header-styles"
+			],
+			[
+				"con",
+				"consultation"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"breakT",
+				"breakTwo"
+			],
+			[
+				"thomas",
+				"thomas-img-breakpoint"
+			],
+			[
+				"page",
+				"page-bg"
+			],
+			[
+				"ro",
+				"row-styles"
+			],
+			[
+				"seco",
+				"secondary-font-color"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-medium"
+			],
+			[
+				"banner",
+				"bannerBreakThree"
+			],
+			[
+				"in",
+				"include	@include"
+			],
+			[
+				"ma",
+				"margin-medium"
+			],
+			[
+				"cl",
+				"columnWidth"
+			],
+			[
+				"fadein",
+				"fadeInList"
+			],
+			[
+				"head",
+				"header-styles"
+			],
+			[
+				"hea",
+				"header-styles"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"bla",
+				"bdlt:a	border-length:auto"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"dark",
+				"darkGreen"
+			],
+			[
+				"s",
+				"square"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"im",
+				"img	Tag"
+			],
+			[
+				"current",
+				"current_collection"
+			],
+			[
+				"fi",
+				"cleanFirstname"
+			],
+			[
+				"clea",
+				"cleanLastname"
+			],
+			[
+				"prim",
+				"primary-color"
+			],
+			[
+				"bac",
+				"backgroundcolor"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"include",
+				"include	@include"
+			],
+			[
+				"blo",
+				"bold"
+			],
+			[
+				"font-we",
+				"font-weight-bold"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"l",
+				"label	Tag"
+			],
+			[
+				"my",
+				"mysql_close"
+			],
+			[
+				"DB",
+				"DB_NAME"
+			],
+			[
+				"form",
+				"form_data"
+			],
+			[
+				"su",
+				"surname"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"mysql",
+				"mysql_query"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"gall",
+				"gallery-link"
+			],
+			[
+				"bre",
+				"breakpoint"
+			],
+			[
+				"custom-button-bre",
+				"custom-button-breaktwo"
+			],
+			[
+				"medium",
+				"medium-breakpoint"
+			],
+			[
+				"breakpo",
+				"breakpoint-one"
+			],
+			[
+				"res",
+				"responsive"
+			],
+			[
+				"cu",
+				"custom-button-medium"
+			],
+			[
+				"mixin",
+				"mixin	@mixin"
+			],
+			[
+				"custom",
+				"custom-button"
+			],
+			[
+				"inc",
+				"include	@include"
+			],
+			[
+				"re",
+				"rem-calc"
+			],
+			[
+				"mi",
+				"mixin	@mixin"
+			],
+			[
+				"grid",
+				"grid-row-myzf	grid-row-mixin"
+			],
+			[
+				"media",
+				"mediaquery-myzf	myzf - media queries mixin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"myzf",
+				"myzf-bordershadow	myzf - border shadow mixin"
+			],
+			[
+				"myzf-",
+				"myzf-mediaquery	myzf - media queries mixin"
+			],
+			[
+				"rem",
+				"rem-calc"
+			],
+			[
+				"nav",
+				"navigationcolor"
+			],
+			[
+				"top",
+				"top-bar"
+			],
+			[
+				"na",
+				"navigationcolor"
+			],
+			[
+				"f",
+				"footer	Tag"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"footer",
+				"footerLink"
+			],
+			[
+				"galleryL",
+				"galleryLinkHover"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"poster",
+				"posterBreakpoint"
+			],
+			[
+				"small",
+				"smallBreakThree"
+			],
+			[
+				"miss",
+				"missionStatment"
+			],
+			[
+				"qu",
+				"queries"
+			],
+			[
+				"blockB",
+				"blockBreakpoint"
+			],
+			[
+				"de",
+				"default	!default"
+			],
+			[
+				"borderStyles",
+				"borderStylesLarge"
+			],
+			[
+				"borderStyl",
+				"borderStylesMedium"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"footer-nav",
+				"footer-nav-right"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"foo",
+				"footer-nav-left"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bo",
+				"bold"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"b",
+				"bolder"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"c",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/about_thomas.twig",
+			"settings":
+			{
+				"buffer_size": 5459,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/contact_details.twig",
+			"settings":
+			{
+				"buffer_size": 3414,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/elemental_healing.twig",
+			"settings":
+			{
+				"buffer_size": 4121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/what_is_homeopathy.twig",
+			"settings":
+			{
+				"buffer_size": 4574,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/index.twig",
+			"settings":
+			{
+				"buffer_size": 6488,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"row row-title-home collapse\">\n  <div class=\"large-12 columns\">\n\n    <div id=\"fadein-pane\" class=\"fadein-panel-large-hom fadein-panel-hom\">\n\n    <div class=\"row\">\n      <div class=\"large-10 large-offset-1 columns\">\n        \n<!--         <h1 class=\"fadein-title\">Come to Elements of Healing to:</h1>\n -->\n        <p class=\"fadein-text\">Receive guidance & direction</p>\n\n        <p class=\"fadein-text\">Reduce stress & anxiety</p>\n\n        <p class=\"fadein-text\">Increase general health & vitality</p>\n\n        <p class=\"fadein-text\">Improve emotional wellbeing</p>\n\n        <p class=\"fadein-text\">Heal physical problems</p>\n \n      </div>\n    </div>\n      \n    </div> <!-- fadein-panel end -->\n\n  </div>\n</div>\n\n\n",
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/home_title_large.html",
+			"file_size": 722,
+			"file_write_time": 131023466097610625,
+			"settings":
+			{
+				"buffer_size": 722,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/healing_process.twig",
+			"settings":
+			{
+				"buffer_size": 6431,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/kingdom_method.twig",
+			"settings":
+			{
+				"buffer_size": 8898,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/consultation.twig",
+			"settings":
+			{
+				"buffer_size": 7812,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/main.twig",
+			"settings":
+			{
+				"buffer_size": 5513,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/what_is_reiki.twig",
+			"settings":
+			{
+				"buffer_size": 7222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_variables.scss",
+			"settings":
+			{
+				"buffer_size": 1839,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/index.php",
+			"settings":
+			{
+				"buffer_size": 3534,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/homeopathy_Q&A.twig",
+			"settings":
+			{
+				"buffer_size": 6943,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/reiki_treatments.twig",
+			"settings":
+			{
+				"buffer_size": 7610,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/reiki_Q&A.twig",
+			"settings":
+			{
+				"buffer_size": 6764,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_footer_navigation.scss",
+			"settings":
+			{
+				"buffer_size": 2273,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/slick/slick-theme.css",
+			"settings":
+			{
+				"buffer_size": 3019,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.scss",
+			"settings":
+			{
+				"buffer_size": 1487,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_contact_form.scss",
+			"settings":
+			{
+				"buffer_size": 1752,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/bower_components/foundation/scss/foundation/components/_top-bar.scss",
+			"settings":
+			{
+				"buffer_size": 21565,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_general_styles.scss",
+			"settings":
+			{
+				"buffer_size": 4231,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* -----------------------------------------------------------------------\n      media queries\n-------------------------------------------------------------------------- */\n\n$xsmall-breakpoint: em-calc(320) !default;\n$small-breakpoint: em-calc(640) !default;\n$medium-breakpoint: em-calc(1024) !default;\n$large-breakpoint: em-calc(1440) !default;\n$xlarge-breakpoint: em-calc(1920) !default;\n\n@mixin responsive($width) {\n  @if $width == smallDown {\n    @media only screen and (min-width: 0) and (max-width: $small-breakpoint){@content;}\n  }\n\n  @else if $width == xsmall {\n    @media only screen and (min-width: 0) and (max-width: $xsmall-breakpoint){@content;}\n  }\n\n  @else if $width == small {\n    @media only screen and (min-width: ($xsmall-breakpoint + em-calc(1))) and (max-width: $small-breakpoint){@content;}\n  }\n\n  @else if $width == medium {\n    @media only screen and (min-width: ($small-breakpoint + em-calc(1))) and (max-width: $medium-breakpoint){@content;}\n  }\n\n  @else if $width == large {\n    @media only screen and (min-width: ($medium-breakpoint + em-calc(1))) and (max-width: $large-breakpoint){@content;}\n  }\n\n  @else if $width == xlarge {\n    @media only screen and (min-width: ($large-breakpoint + em-calc(1))) and (max-width: $xlarge-breakpoint){@content;}\n  }\n\n  @else if $width == largeUp {\n    @media only screen and (min-width: ($medium-breakpoint + em-calc(1))){@content;}\n  }\n}\n",
+			"file": "_media_queries.scss",
+			"file_size": 1404,
+			"file_write_time": 131034055258539069,
+			"settings":
+			{
+				"buffer_size": 1404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 3128,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_elemental_layout.scss",
+			"settings":
+			{
+				"buffer_size": 3400,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_row_layout.scss",
+			"settings":
+			{
+				"buffer_size": 1068,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_settings.scss",
+			"settings":
+			{
+				"buffer_size": 52670,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_theme-elementsofhealing.scss",
+			"settings":
+			{
+				"buffer_size": 337,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_title_layout.scss",
+			"settings":
+			{
+				"buffer_size": 9452,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_responsive_column_layout.scss",
+			"settings":
+			{
+				"buffer_size": 1464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_images.scss",
+			"settings":
+			{
+				"buffer_size": 3528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_statement_layout.scss",
+			"settings":
+			{
+				"buffer_size": 1848,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_dropdown_menu.scss",
+			"settings":
+			{
+				"buffer_size": 1200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/lib/gems/1.9.1/gems/scss_lint-0.47.1/config/default.yml",
+			"settings":
+			{
+				"buffer_size": 4911,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/lampp/htdocs/myphp/elements_of_healing/js/app.js",
+			"settings":
+			{
+				"buffer_size": 3328,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"zurb fu",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"rp",
+				"Package Control: Remove Package"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pcu",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"snippphp",
+				"Snippet: PHP: elseif statement"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"ssx",
+				"Set Syntax: PHP"
+			],
+			[
+				"serv",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"server",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"ser",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"ssxs",
+				"Set Syntax: Sass"
+			],
+			[
+				"snzur",
+				"Snippet: background-size:cover"
+			],
+			[
+				"ssxsa",
+				"Set Syntax: Sass"
+			],
+			[
+				"in",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"sub",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"ssxht",
+				"Set Syntax: HTML"
+			],
+			[
+				"sta",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"ssxscs",
+				"Set Syntax: CSS"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"snip@in",
+				"Snippet: @include"
+			],
+			[
+				"snipmix",
+				"Snippet: @mixin"
+			],
+			[
+				"sniinclu",
+				"Snippet: @include"
+			],
+			[
+				"mixi",
+				"Snippet: @mixin"
+			],
+			[
+				"sn",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"Set Syntax: SASS",
+				"Set Syntax: Sass"
+			],
+			[
+				"sass",
+				"Snippet: text-emphasis:after"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/homeopathy_columns_small.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/homeopathy_columns_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/homeopathy_columns_large.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/homeopathy_title_large.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/homeopathy_title_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/homeopathy_title_small.html",
+		"/home/thomas/.config/sublime-text-3/Packages/User/my_snippets/my_zurb_foundation_snippets/scss/interchange.sublime-snippet",
+		"/home/thomas/.config/sublime-text-3/Packages/foundation-5-sublime-snippets/Snippets/Sublime Snippets/Snippet.full-grid.sublime-snippet",
+		"/home/thomas/.config/sublime-text-3/Packages/User/my_snippets/my_zurb_foundation_snippets/html/zurb_foundation_image-paragraph.sublime-snippet",
+		"/home/thomas/.config/sublime-text-3/Packages/User/my_snippets/my_zurb_foundation_snippets/html/zurb_foundation_row-page.sublime-snippet",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/consent_form_large.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/clams_small.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/consent_form_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/consent_form_small.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/clams_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/clams_large.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/animal_kingdom_small.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/animal_kingdom_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/mineral_kingdom_small.html",
+		"/home/thomas/.config/sublime-text-3/Packages/User/my_snippets/my_zurb_foundation_snippets/scss/image-class.sublime-snippet",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/bower_components/foundation/scss/foundation/components/_top-bar.scss",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/poster_small.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/poster_large.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/poster_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/plant_kingdom_large.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/plant_kingdom_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/plant_kingdom_smallhtml",
+		"/media/thomas/388D-5ECC/webdevelopment/current_projects/questions_&_answers.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/templates/the_healing_process.twig",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/templates/reiki_treatments.twig",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/templates/reiki_qualifications.twig",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/templates/reiki.txt",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/templates/how_reiki_is_applied.twig",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/templates/main2.twig",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/templates/what_is_homeopath.twig",
+		"/home/thomas/.config/sublime-text-3/Packages/User/my_snippets/my_zurb_foundation_snippets/html/zurb_foundation_row-dark.sublime-snippet",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/templates/the_homeopathic_consultation.twig",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/templates/the_kingdom_method.twig",
+		"/home/thomas/Business/webdevelopment/color_palettes/monochrome_palette.scss",
+		"/home/thomas/Business/webdevelopment/color_palettes/index.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/fade_in_title_large.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/column_header_small.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/column_header_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/poster_elements_small.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/bower.json",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_testimonials_layout.scss",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_mission_statement_layout.scss",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_global_variables.scss",
+		"/home/thomas/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/elemental_title_large.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/reiki_title_small.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/home_title_large.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/poster_elements_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/poster_elements_large.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/home_title_small.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/reiki_title_large.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/home_title_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/reiki_title_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/elemental_title_medium.html",
+		"/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/elemental_title_small.html",
+		"/home/thomas/Business/alessia_jones/index.php",
+		"/opt/lampp/htdocs/alessia_jones/stylesheets/app.css",
+		"/opt/lampp/htdocs/myphp/css/master.css",
+		"/home/thomas/Business/alessia_jones/vendor/swiftmailer/swiftmailer/README",
+		"/opt/lampp/htdocs/alessia_jones/vendor/swiftmailer/swiftmailer/lib/swift_required.php",
+		"/opt/lampp/htdocs/alessia_jones/vendor/swiftmailer/swiftmailer/lib/swift_init.php",
+		"/opt/lampp/htdocs/alessia_jones/vendor/swiftmailer/swiftmailer/lib/preferences.php",
+		"/opt/lampp/htdocs/alessia_jones/vendor/swiftmailer/swiftmailer/doc/installing.rst",
+		"/opt/lampp/htdocs/alessia_jones/vendor/swiftmailer/swiftmailer/CHANGES",
+		"/opt/lampp/htdocs/alessia_jones/vendor/swiftmailer/swiftmailer/composer.json",
+		"/opt/lampp/htdocs/alessia_jones/templates/gallery.twig",
+		"/opt/lampp/htdocs/alessia_jones/templates/EXHIBITIONS.html",
+		"/home/thomas/Business/webdevelopment/elements_of_healing/js/app.js",
+		"/opt/lampp/htdocs/alessia_jones/js/app.js",
+		"/opt/lampp/htdocs/alessia_jones/templates/html/contact_details.html",
+		"/opt/lampp/htdocs/alessia_jones/templates/html/about_alessia.html",
+		"/opt/lampp/htdocs/alessia_jones/gallery.html",
+		"/opt/lampp/htdocs/alessia_jones/Alessia's web/Statement + exhibitions/Statement 2015.txt",
+		"/opt/lampp/htdocs/alessia_jones/index.html",
+		"/opt/lampp/htdocs/alessia_jones/templates/main.HTML (twig)",
+		"/opt/lampp/htdocs/alessia_jones/Alessia's web/Biography/Biography/Biography 2015.txt",
+		"/home/thomas/Desktop/vmware-tools-distrib/INSTALL",
+		"/opt/lampp/htdocs/alessia_jones/bower_components/foundation/scss/foundation/components/_forms.scss",
+		"/home/thomas/Business/webdevelopment/color_palettes/scss/_monochrome_palette.scss",
+		"/opt/lampp/htdocs/alessia_jones/scss/_settings.scss",
+		"/opt/lampp/htdocs/alessia_jones/scss/_global_mixins.scss",
+		"/opt/lampp/htdocs/alessia_jones/scss/_global_media_queries.scss",
+		"/home/thomas/.config/sublime-text-3/Packages/PHP-Twig/README.md",
+		"/home/thomas/.profile",
+		"/opt/lampp/gallery.HTML (twig)",
+		"/home/thomas/.config/sublime-text-3/Packages/User/HTML (twig).sublime-settings",
+		"/home/thomas/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/opt/lampp/htdocs/alessia_jones/composer.json",
+		"/opt/lampp/htdocs/alessia_jones/composer.lock",
+		"/home/thomas/.bashrc",
+		"/opt/lampp/htdocs/alessia_jones/vendor/composer/installed.json",
+		"/opt/lampp/htdocs/alessia_jones/htaccess.txt",
+		"/opt/lampp/apache2/README.txt",
+		"/opt/lampp/htdocs/myphp/index.php",
+		"/home/thomas/bin/.bashrc",
+		"/home/thomas/Business/webdevelopment/alessia_jones/index2.php",
+		"/home/thomas/Business/webdevelopment/alessia_jones/index.php",
+		"/home/thomas/Business/webdevelopment/alessia_jones/mouse_click_logo.css",
+		"/opt/lampp/htdocs/myphp/composer.json",
+		"/home/thomas/.config/sublime-text-3/Packages/User/scss.sublime-settings",
+		"/home/thomas/Business/elements_of_healing/boco/Thomas Jones - Homeopath & Reiki Practitioner 270915.txt",
+		"/home/thomas/Business/elements_of_healing/boco/thomas_jones_statement.txt",
+		"/home/thomas/Business/webdevelopment/alessia_jones/interchange/interchange_title_medium.html",
+		"/home/thomas/Business/webdevelopment/alessia_jones/interchange/interchange_title_small.html",
+		"/home/thomas/Desktop/myzf-medi.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/app.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/_contact_form.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/_gallery_styles.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/bower_components/foundation/scss/foundation/components/_type.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/_general_styles.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/_global_media_queries.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/_top_bar.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/_theme_alessia_jones.scss",
+		"/home/thomas/.config/sublime-text-3/Packages/User/my_snippets/my_zurb_foundation_snippets/scss/zurb_foundation_custom_button_mixin.sublime-snippet",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/_slideshow_styles.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/_settings.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/_icon_bar.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/_global_variables.scss",
+		"/home/thomas/Business/webdevelopment/alessia_jones/scss/_global_mixins.scss",
+		"/home/thomas/.config/sublime-text-3/Packages/User/HTML.sublime-settings",
+		"/home/thomas/.config/sublime-text-3/Packages/User/Sass.sublime-settings",
+		"/etc/profile",
+		"/home/thomas/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h3 class=\"dropdown-tab\"",
+			"h5",
+			"nested-dropdown-tab",
+			"nested-dropdown-menu",
+			"nested-dropdown-tab",
+			"nested-dropdown-menu",
+			"questions-and-answers",
+			"$fontSize",
+			"footerNavResponsive",
+			"poster-elements",
+			"poster-responsive",
+			"poster-title-responsive",
+			"poster-elements",
+			"thomas-img",
+			"#column-fadein",
+			"h3",
+			"inner-border-effect",
+			"$custom-font-family",
+			"$topbar-dropdown-link-bg",
+			"$topbar-link-bg",
+			"$topbar-bg",
+			"global",
+			"hr",
+			"$hr-margin",
+			"$global-radius",
+			"$input-border-radius",
+			"li",
+			"Li",
+			"li",
+			"Li",
+			"li",
+			"  @include responsive-custom-panel(breakfour) {\n",
+			"panel",
+			"-\n",
+			"panel",
+			"    @",
+			"panel",
+			"        @",
+			"name",
+			"posterResponsive",
+			"width",
+			".fadein-effect-panel",
+			"$topbar-back-link-size;",
+			"$topbar-height",
+			"$topbar-bg",
+			"borderColor",
+			"$galleryLink",
+			"$galleryLinkHover",
+			"fadeInEffectPanel",
+			"navigationColor",
+			"backgroundColor",
+			"foregroundColor",
+			"up-date-check",
+			"span",
+			"h3",
+			"h4",
+			"h2",
+			"h3",
+			"large",
+			"$row-width",
+			"$row-width: rem-calc(1000);",
+			"article",
+			"tiny",
+			"article",
+			"h2",
+			"4",
+			"poster",
+			"posterGreengenta",
+			"block",
+			"span",
+			"a",
+			"span",
+			"posterBlue",
+			"Creativity",
+			"%);\n",
+			"px",
+			"em",
+			"responsive",
+			"paragraphResponsive",
+			"inline lists",
+			"Inline Lists",
+			"paragraphResponsive",
+			"paragraph",
+			"posterResponsive",
+			"borderLayoutResponsive",
+			"    .",
+			"    @",
+			"block",
+			"class",
+			"h2",
+			"mission-statement",
+			"row-secondary-color",
+			"mission-statement",
+			"class=\"text\"",
+			"$body-font-color;",
+			"$paragraph-font-family",
+			"typography",
+			"Buttons",
+			"$h3-font-reduction",
+			"$font-weight-normal",
+			"$block-grid-default-spacing",
+			"$spacing",
+			".fadein-effect",
+			"Typography",
+			"13",
+			"$paragraph-font-size",
+			"$padding",
+			"%block",
+			"border-effect",
+			"row-effect",
+			".border-effect",
+			"$font-family-sans-serif;",
+			"$font-weight-normal;",
+			"sidenav",
+			".custom-sidenav-class",
+			"top-bar-section",
+			"top-bar",
+			"$oil",
+			"$topbar-bg-color",
+			"beetrootPurple",
+			"tomatoRed",
+			"sunsetOrange",
+			"grassGreen",
+			"sunYellow"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"h3",
+			"dropdown-tab",
+			"dropdown-menu",
+			"dropdown-tab",
+			"dropdown-menu",
+			"$font-size",
+			"footer-nav",
+			"poster-styles",
+			"poster-title",
+			"poster",
+			"statement",
+			"h2",
+			"border-effect",
+			".custom-panel",
+			"bordercolor",
+			"$gallerylink",
+			"$gallerylinkhover",
+			"fadeineffectpanel",
+			"navigationcolor",
+			"backgroundcolor",
+			"foregroundcolor",
+			"section",
+			"paragraphResponsive",
+			"blockResponsive",
+			"h3",
+			".block",
+			"row-border",
+			"border-effect",
+			".row-border",
+			"earthMagenta",
+			"baseRed",
+			"sacralOrange",
+			"heartGreen",
+			"solarYellow"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 11,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/about_thomas.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								293,
+								293
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (twig)",
+							"buffer_scroll_name": "270d61d0",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/contact_details.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2005,
+								2005
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (twig)",
+							"buffer_scroll_name": "506c9c64",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/elemental_healing.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3195,
+								3195
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (twig)",
+							"buffer_scroll_name": "47e0d682",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 241.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/what_is_homeopathy.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								874,
+								874
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (twig)",
+							"buffer_scroll_name": "02677672",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 437.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/index.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								417,
+								417
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (twig)",
+							"buffer_scroll_name": "ed7617de",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 77.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/js/interchange/home_title_large.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "5f3d9142",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/healing_process.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5151,
+								5151
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (twig)",
+							"buffer_scroll_name": "01f301e9",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2346.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/kingdom_method.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7230,
+								7613
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (twig)",
+							"buffer_scroll_name": "c85f42a9",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3737.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/consultation.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1083,
+								1083
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (twig)",
+							"buffer_scroll_name": "ee116c9b",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 601.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/main.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3824,
+								3824
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (twig)",
+							"buffer_scroll_name": "69bbc221",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1503.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/what_is_reiki.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (twig)",
+							"buffer_scroll_name": "b3460dfc",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1839,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								490,
+								490
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "e60ec2e7",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 47.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1712,
+								1712
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "php",
+							"buffer_scroll_name": "b92eb679",
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 685.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/homeopathy_Q&A.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								951,
+								951
+							],
+							[
+								975,
+								975
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "a3fc4f90",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/reiki_treatments.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								803,
+								803
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (twig)",
+							"buffer_scroll_name": "7ede689e",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/templates/reiki_Q&A.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								833,
+								833
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "88ab86ec",
+							"spell_check": false,
+							"syntax": "Packages/PHP-Twig/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 16,
+					"file": "_footer_navigation.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2148,
+								2148
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "2a6c1eb8",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/slick/slick-theme.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3015,
+								3015
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "css",
+							"buffer_scroll_name": "56ebc6ab",
+							"spell_check": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "7f2ce9ca",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "_contact_form.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1601,
+								1601
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "c9297b88",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 602.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/bower_components/foundation/scss/foundation/components/_top-bar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17430,
+								17430
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "44decbe4",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9143.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "_general_styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3678,
+								3870
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "59c39f6e",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4227.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "_media_queries.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								345
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "3e8743af",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "_mixins.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2194,
+								2194
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "6266e4b8",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1554.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "_elemental_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "18135534",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "_row_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								413,
+								413
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "be666793",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "_settings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3383,
+								3383
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "b2cbc0e6",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2078.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "_theme-elementsofhealing.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "d5c1fd36",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "_title_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9452,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										407,
+										407
+									],
+									[
+										4862,
+										4862
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								6889,
+								6889
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "sass",
+							"buffer_scroll_name": "195db315",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "_responsive_column_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1419,
+								1419
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "da2f77f9",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "_images.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "af1025c1",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "_statement_layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1339,
+								1339
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "861482f9",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 923.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "_dropdown_menu.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "eedecded",
+							"spell_check": false,
+							"syntax": "Packages/sass-textmate-bundle/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 33,
+					"file": "/var/lib/gems/1.9.1/gems/scss_lint-0.47.1/config/default.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4911,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1317,
+								1317
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "yaml",
+							"buffer_scroll_name": "7ba25e50",
+							"spell_check": false,
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1209.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "/opt/lampp/htdocs/myphp/elements_of_healing/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1658,
+								1658
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "6fbd0ba7",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1451.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.330553896622,
+			0.967741935484,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 29.0
+	},
+	"pinned_build_system": "",
+	"project": "elements_of_healing_2.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ge",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_general_styles.scss"
+			],
+			[
+				"con",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_contact_form.scss"
+			],
+			[
+				"tit",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_title_layout.scss"
+			],
+			[
+				"",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_responsive_column_layout.scss"
+			],
+			[
+				"king",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/kingdom_method.twig"
+			],
+			[
+				"mix",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_mixins.scss"
+			],
+			[
+				"hea",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/healing_process.twig"
+			],
+			[
+				"ima",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_images.scss"
+			],
+			[
+				"wh",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/what_is_homeopathy.twig"
+			],
+			[
+				"va",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_variables.scss"
+			],
+			[
+				"gene",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_general_styles.scss"
+			],
+			[
+				"gen",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_general_styles.scss"
+			],
+			[
+				"ind",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/index.twig"
+			],
+			[
+				"what",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/what_is_homeopathy.twig"
+			],
+			[
+				"dro",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_dropdown_menu.scss"
+			],
+			[
+				"med",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_media_queries.scss"
+			],
+			[
+				"mi",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_mixins.scss"
+			],
+			[
+				"ma",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/main.twig"
+			],
+			[
+				"mai",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/main.twig"
+			],
+			[
+				"fo",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_footer_navigation.scss"
+			],
+			[
+				"ele",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/elemental_healing.twig"
+			],
+			[
+				"im",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_images.scss"
+			],
+			[
+				"kin",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/kingdom_method.twig"
+			],
+			[
+				"in",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/index.php"
+			],
+			[
+				"hom",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/what_is_homeopathy.twig"
+			],
+			[
+				"el",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/elemental_healing.twig"
+			],
+			[
+				"ho",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/homeopathy.twig"
+			],
+			[
+				"m",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/main.twig"
+			],
+			[
+				"h",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/healing_process.twig"
+			],
+			[
+				"min",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_mixins.scss"
+			],
+			[
+				"rei",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/templates/reiki.twig"
+			],
+			[
+				"row",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_row_layout.scss"
+			],
+			[
+				"imag",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_images.scss"
+			],
+			[
+				"ed",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_media_queries.scss"
+			],
+			[
+				"th",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_theme-elementsofhealing.scss"
+			],
+			[
+				"a",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/app.scss"
+			],
+			[
+				"thme",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_theme-elementsofhealing.scss"
+			],
+			[
+				"ro",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_row_layout.scss"
+			],
+			[
+				"se",
+				"/opt/lampp/htdocs/myphp/elements_of_healing/scss/_settings.scss"
+			],
+			[
+				"ear",
+				"/opt/lampp/htdocs/alessia_jones/templates/early_works.twig"
+			],
+			[
+				"app",
+				"/opt/lampp/htdocs/alessia_jones/stylesheets/app.css"
+			],
+			[
+				"for",
+				"/opt/lampp/htdocs/alessia_jones/scss/_contact_form.scss"
+			],
+			[
+				"nav",
+				"/opt/lampp/htdocs/alessia_jones/scss/_global_variables.scss"
+			],
+			[
+				"slide",
+				"/opt/lampp/htdocs/alessia_jones/scss/_slideshow_styles.scss"
+			],
+			[
+				"ic",
+				"/opt/lampp/htdocs/alessia_jones/scss/_icon_bar.scss"
+			],
+			[
+				"sett",
+				"/opt/lampp/htdocs/alessia_jones/scss/_settings.scss"
+			],
+			[
+				"gal",
+				"alessia_jones/gallery.html"
+			],
+			[
+				"clea",
+				"alessia_jones/bower_components/foundation/scss/foundation/components/_clearing.scss"
+			],
+			[
+				"gall",
+				"scss/_gallery_styles.scss"
+			],
+			[
+				"slid",
+				"scss/_slideshow_styles.scss"
+			],
+			[
+				"sty",
+				"scss/_slideshow_styles.scss"
+			],
+			[
+				"glo",
+				"scss/_global_media_queries.scss"
+			],
+			[
+				"pos",
+				"~/Desktop/elements_of_healing/scss/_poster_layout.scss"
+			],
+			[
+				"sli",
+				"scss/_slideshow_styles.scss"
+			],
+			[
+				"inter",
+				"interchange/interchange_title_medium.html"
+			],
+			[
+				"gener",
+				"scss/_general_styles.scss"
+			],
+			[
+				"sl",
+				"scss/_slideshow_styles.scss"
+			],
+			[
+				"foo",
+				"scss/_footer_navigation.scss"
+			],
+			[
+				"foot",
+				"scss/_footer_navigation.scss"
+			],
+			[
+				"glob",
+				"scss/_global_variables.scss"
+			],
+			[
+				"global_",
+				"scss/_global_mixins.scss"
+			],
+			[
+				"pre",
+				"~/Desktop/webdevelopment/alessiajones/css/preview.html"
+			],
+			[
+				"ab",
+				"about_alessia.html"
+			],
+			[
+				"genr",
+				"scss/_general_styles.scss"
+			],
+			[
+				"ga",
+				"gallery.html"
+			],
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"t",
+				"template.html"
+			],
+			[
+				"r",
+				"reiki.html"
+			],
+			[
+				"abo",
+				"elements_of_healing_template/elements of healing - version 2/aboutthomas.html"
+			],
+			[
+				"set",
+				"scss/_settings.scss"
+			],
+			[
+				"_g",
+				"~/Desktop/webdevelopment/elements_of_healing/scss/_general_styles.scss"
+			],
+			[
+				"_th",
+				"~/Desktop/webdevelopment/elements_of_healing/scss/_theme-elementsofhealing.scss"
+			],
+			[
+				"e",
+				"~/Desktop/elements_of_healing/elementalhealing.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/opt/lampp/htdocs/alessia_jones/xampp_alessia_jones.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 3
+	}
+}

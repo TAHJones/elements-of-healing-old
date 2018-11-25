@@ -1,0 +1,523 @@
+/* -----------------------------------------------------------------------
+    banner layout - variables
+------------------------------------------------------------------------- */
+
+
+/* fadein panel color variables */
+
+$fadein-bg-color-small: rgba(0, 0, 0, 0.5);
+$fadein-bg-color: rgba(0, 0, 0, 0.55);
+
+
+/* title color variables*/
+
+$homeopathy-title-color: darken($orange, 20%);
+$reiki-title-color: lighten($magenta, 5%);
+
+
+/* font-size variables */
+
+$banner-font-xsmall: rem-calc(14);
+$banner-font-xsmall2small: rem-calc(16);
+$banner-font-small: rem-calc(17);
+$banner-font-small2medium: rem-calc(18);
+$banner-font-medium: rem-calc(20);
+$banner-font-large: rem-calc(22);
+
+
+/* layout size variables */
+
+$fadein-background-height-xsmall: rem-calc(310);
+$fadein-background-height-small: rem-calc(310);
+$fadein-background-height-medium: rem-calc(330);
+$fadein-background-height-large: rem-calc(355);
+
+
+/* -----------------------------------------------------------------------
+    banner layout - mixins
+------------------------------------------------------------------------- */
+
+
+/* banner image - mixin */
+
+@mixin background-image ($image) {
+
+  @if $image == main {
+    // background-image: url("../img/main_banner_image.jpg");
+    background-image: url("../img/bluebells.jpg");
+  }
+
+  @else if $image == reiki {
+    background-image: url("../img/reiki_banner_image.jpg");
+  }
+
+  @else if $image == homeopathy {
+    background-image: url("../img/homeopathy_banner_image.jpg");
+  }
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* fadein list styles - mixin */
+
+@mixin fadein-list-styles($styles) {
+  @if $styles == main {
+    p {
+      &:nth-of-type(1) {
+        color: $lilac;
+        margin-top: rem-calc(40);
+      }
+
+      &:nth-of-type(2) {
+        color: $blue;
+      }
+
+      &:nth-of-type(3) {
+        color: $yellow;
+      }
+
+      &:nth-of-type(4) {
+        color: $red;
+      }
+
+      &:nth-of-type(5) {
+        color: $magenta;
+      }
+    }
+  }
+
+  @else if $styles == homeopathy {
+    h1 {
+      color: $homeopathy-title-color;
+    }
+
+    p {
+      &:nth-of-type(odd) {
+        color: $orange;
+      }
+
+      &:nth-of-type(even) {
+        color: $red;
+      }
+    }
+  }
+
+  @else if $styles == reiki {
+    h1 {
+      color: $reiki-title-color;
+    }
+
+    p {
+      &:nth-of-type(odd) {
+        color: $lilac;
+      }
+
+      &:nth-of-type(even) {
+        color: lighten($magenta, 25%);
+      }
+    }
+  }
+}
+
+
+/* fadein list layout - mixin */
+
+@mixin fadein-list-layout($layout) {
+  @if $layout == main {
+    .fadein-panel {
+      p {
+        display: none;
+        font-weight: bold;
+        font-size: $banner-font-xsmall;
+        font-family: $primary-font-stack;
+        margin-bottom: rem-calc(20);
+        margin-left: rem-calc(20);
+        text-align: left;
+        &:nth-of-type(1) {margin-top: rem-calc(54);}
+
+        @include breakpoint(320px) {
+          margin-left: rem-calc(20);
+        }
+
+        @include breakpoint(350px) {
+          font-size: $banner-font-xsmall2small;
+          text-align: right;
+          &:nth-of-type(1) {margin-top:rem-calc(50);}
+        }
+
+        @include breakpoint(640px) {
+          font-size: $banner-font-small;
+          text-align: right;
+          &:nth-of-type(1) {margin-top: rem-calc(58);}
+        }
+
+        @include breakpoint(780) {
+          font-size: $banner-font-large;
+          text-align: right;
+          &:nth-of-type(1) {margin-top: rem-calc(50);}
+        }
+
+        @include breakpoint(large) {
+          font-size: $banner-font-large;
+          text-align: right;
+          &:nth-of-type(1) {margin-top: rem-calc(50);}
+        }
+      }
+    } /* fadein-panel */
+  } /* main */
+
+  @else if $layout == homeopathy {
+    .fadein-panel {
+      h1 {
+        font-size: rem-calc(15);
+        margin: rem-calc(25) rem-calc(10) rem-calc(15);
+        margin-left: rem-calc(10);
+
+        @include breakpoint(300px) {
+          font-size: rem-calc(21);
+          font-weight: bold;
+          margin: rem-calc(25) rem-calc(10) rem-calc(15);
+        }
+
+        @include breakpoint(350px) {
+          font-size: rem-calc(25);
+          margin: rem-calc(25) rem-calc(10) rem-calc(15);
+        }
+
+        @include breakpoint(420px) {
+          font-size: rem-calc(30);
+          margin: rem-calc(25) rem-calc(10) rem-calc(15);
+        }
+
+        @include breakpoint(640px) {
+          font-size: rem-calc(35);
+          margin: rem-calc(25) rem-calc(10) rem-calc(15);
+        }
+
+        @include breakpoint(760px) {
+          font-size: rem-calc(30);
+          margin: rem-calc(25) 0 rem-calc(10) rem-calc(14);
+        }
+
+        @include breakpoint(800px) {
+          font-size: rem-calc(30);
+          margin: rem-calc(25) 0 rem-calc(10) rem-calc(12);
+        }
+
+        @include breakpoint(900px) {
+          font-size: rem-calc(35);
+          margin: rem-calc(20) 0 0 rem-calc(12);
+        }
+
+        @include breakpoint(large) {
+          font-size: rem-calc(40);
+          margin: rem-calc(20) 0 0 rem-calc(12);
+        }
+      }
+
+      p {
+        display: none;
+        font-family: $primary-font-stack;
+        font-style: italic;
+        font-size: ($banner-font-xsmall - rem-calc(2));
+        font-weight: bold;
+        margin-bottom: rem-calc(14);
+        margin-left: rem-calc(10);
+        text-align: left;
+        &:nth-of-type(1){margin-top: rem-calc(20);}
+
+        @include breakpoint(300px) {
+          font-size: $banner-font-xsmall;
+          text-align: left;
+          &:nth-of-type(1){margin-top: rem-calc(30);}
+        }
+
+        @include breakpoint(350px) {
+          font-size: ($banner-font-xsmall2small - rem-calc(1));
+          text-align: left;
+          &:nth-of-type(1){margin-top: rem-calc(30);}
+        }
+
+        @include breakpoint(420px) {
+          font-size: ($banner-font-xsmall2small - rem-calc(1));
+          text-align: left;
+          &:nth-of-type(1){margin-top: rem-calc(30);}
+        }
+
+        @include breakpoint(640px) {
+          font-size: ($banner-font-xsmall2small - rem-calc(1));
+          text-align: left;
+          &:nth-of-type(1){margin-top: rem-calc(40);}
+        }
+
+        @include breakpoint(760px) {
+          font-size: $banner-font-small;
+          margin: 0 rem-calc(12) rem-calc(10) 0;
+          text-align: right;
+        }
+
+        @include breakpoint(800px) {
+          font-size: $banner-font-small;
+          margin: 0 rem-calc(12) rem-calc(10) 0;
+          text-align: right;
+        }
+
+        @include breakpoint(900px) {
+          font-size: $banner-font-medium;
+          margin: 0 rem-calc(12) rem-calc(10) 0;
+          text-align: right;
+        }
+
+        @include breakpoint(large) {
+          font-size: $banner-font-medium;
+          margin: 0 rem-calc(12) rem-calc(12) 0;
+          text-align: right;
+
+        }
+      }
+    } /* fadein-panel */
+  } /* homeopathy */
+
+  @else if $layout == reiki {
+    .fadein-panel {
+      h1 {
+        font-size: rem-calc(15);
+        margin: rem-calc(25) rem-calc(10) rem-calc(15);
+        margin-left: rem-calc(10);
+
+        @include breakpoint(270px) {
+          font-size: rem-calc(25);
+          font-weight: bold;
+          margin: rem-calc(30) rem-calc(10) rem-calc(15);
+        }
+
+        @include breakpoint(320px) {
+          font-size: rem-calc(30);
+          font-weight: bold;
+          margin: rem-calc(25) rem-calc(10) rem-calc(15);
+        }
+
+        @include breakpoint(350px) {
+          font-size: rem-calc(35);
+          margin: rem-calc(25) rem-calc(10) rem-calc(15);
+        }
+
+        @include breakpoint(640px) {
+          font-size: rem-calc(40);
+          margin: rem-calc(25) 0 rem-calc(10) rem-calc(14);
+        }
+
+        @include breakpoint(780px) {
+          font-size: rem-calc(45);
+          margin: rem-calc(25) 0 rem-calc(10) rem-calc(12);
+        }
+
+        @include breakpoint(1024px) {
+          font-size: rem-calc(50);
+          margin: rem-calc(20) 0 0 rem-calc(12);
+        }
+
+        @include breakpoint(large) {
+          font-size: rem-calc(50);
+          margin: rem-calc(20) 0 0 rem-calc(12);
+        }
+      }
+
+      p {
+        display: none;
+        font-family: $primary-font-stack;
+        font-style: italic;
+        font-size: $banner-font-xsmall;
+        font-weight: bold;
+        margin-bottom: rem-calc(14);
+        margin-left: rem-calc(10);
+        text-align: left;
+        &:nth-of-type(1){margin-top: rem-calc(20);}
+
+        @include breakpoint(270px) {
+          font-size: $banner-font-xsmall;
+          text-align: left;
+        &:nth-of-type(1){margin-top: rem-calc(30);}
+        }
+
+        @include breakpoint(320px) {
+          font-size: $banner-font-xsmall;
+          text-align: left;
+        }
+
+        @include breakpoint(350px) {
+          font-size: ($banner-font-xsmall2small - rem-calc(1));
+          text-align: left;
+        }
+
+        @include breakpoint(660px) {
+          font-size: $banner-font-small;
+          margin: 0 rem-calc(12) rem-calc(10) 0;
+          text-align: right;
+        }
+
+        @include breakpoint(780px) {
+          font-size: $banner-font-medium;
+          margin: 0 rem-calc(12) rem-calc(10) 0;
+          text-align: right;
+        }
+
+        @include breakpoint(1024px) {
+          font-size: $banner-font-medium;
+          margin: 0 rem-calc(12) rem-calc(10) 0;
+          text-align: right;
+        }
+
+        @include breakpoint(large) {
+          font-size: $banner-font-medium;
+          margin: 0 rem-calc(12) rem-calc(12) 0;
+          text-align: right;
+        }
+      }
+    } /* fadein-panel */
+  } /* reiki */
+
+  /* @else if $layout == homeopathy or reiki {
+    
+      .fadein-panel {
+    
+        p {
+          display: none;
+          font-family: $primary-font-stack;
+          font-style: italic;
+          font-size: $banner-font-xsmall;
+          font-weight: bold;
+          margin-bottom: rem-calc(14);
+          margin-left: rem-calc(10);
+          text-align: left;
+    
+          @include breakpoint(320px) {
+            font-size: $banner-font-xsmall;
+            text-align: left;
+          }
+    
+          @include breakpoint(350px) {
+            font-size: ($banner-font-xsmall2small - rem-calc(1));
+            text-align: left;
+          }
+    
+          @include breakpoint(660px) {
+            font-size: $banner-font-small;
+            margin: 0 rem-calc(12) rem-calc(10) 0;
+            text-align: right;
+          }
+    
+          @include breakpoint(780px) {
+            font-size: $banner-font-medium;
+            margin: 0 rem-calc(12) rem-calc(10) 0;
+            text-align: right;
+          }
+    
+          @include breakpoint(1024px) {
+            font-size: $banner-font-medium;
+            margin: 0 rem-calc(12) rem-calc(10) 0;
+            text-align: right;
+          }
+    
+          @include breakpoint(large) {
+            font-size: $banner-font-medium;
+            margin: 0 rem-calc(12) rem-calc(12) 0;
+            text-align: right;
+          }
+        }
+      } fadein-panel
+    } */  /* fadein-list-layout */
+
+}
+
+
+/* -----------------------------------------------------------------------
+    banner layout - placeholder
+------------------------------------------------------------------------- */
+
+%row-banner {
+  background-color: $secondary-page-bg;
+  height: $fadein-background-height-xsmall;
+
+  @include breakpoint(smallish) {
+    height: $fadein-background-height-small;
+  }
+
+  @include breakpoint(medium) {
+    height: $fadein-background-height-medium;
+  }
+
+  @include breakpoint(780px) {
+    height: $fadein-background-height-large;
+  }
+
+  @include breakpoint(1024px) {
+    height: $fadein-background-height-large;
+  }
+
+  @include breakpoint(large) {
+    height: $fadein-background-height-large;
+  }
+
+  .fadein-panel {
+    background-color: $fadein-bg-color-small;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: $fadein-background-height-xsmall;
+    width: 100%;
+
+    @include breakpoint(smallish) {
+      height: $fadein-background-height-small;
+    }
+
+    @include breakpoint(medium) {
+      background-color: $fadein-bg-color;
+      height: $fadein-background-height-medium;
+    }
+
+    @include breakpoint(780px) {
+      background-color: $fadein-bg-color;
+      height: $fadein-background-height-large;
+    }
+
+    @include breakpoint(1024px) {
+      background-color: $fadein-bg-color;
+      height: $fadein-background-height-large;
+    }
+
+    @include breakpoint(large) {
+      background-color: $fadein-bg-color;
+      height: $fadein-background-height-large;
+    }
+  }
+}
+
+
+/* -----------------------------------------------------------------------
+    banner layout - classes
+------------------------------------------------------------------------- */
+
+.row-banner-main {
+  @extend %row-banner;
+  @include background-image(main);
+  @include fadein-list-styles(main);
+  @include fadein-list-layout(main);
+}
+
+.row-banner-homeopathy {
+  @extend %row-banner;
+  @include background-image(homeopathy);
+  @include fadein-list-styles(homeopathy);
+  @include fadein-list-layout(homeopathy);
+}
+
+.row-banner-reiki {
+  @extend %row-banner;
+  @include background-image(reiki);
+  @include fadein-list-styles(reiki);
+  @include fadein-list-layout(reiki);
+}

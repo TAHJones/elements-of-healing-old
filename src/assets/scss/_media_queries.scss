@@ -1,0 +1,39 @@
+/* -----------------------------------------------------------------------
+      media queries
+-------------------------------------------------------------------------- */
+
+$xsmall-breakpoint: em-calc(320) !default;
+$small-breakpoint: em-calc(640) !default;
+$medium-breakpoint: em-calc(1024) !default;
+$large-breakpoint: em-calc(1440) !default;
+$xlarge-breakpoint: em-calc(1920) !default;
+
+@mixin responsive($width) {
+  @if $width == smallDown {
+    @media only screen and (min-width: 0) and (max-width: $small-breakpoint){@content;}
+  }
+
+  @else if $width == xsmall {
+    @media only screen and (min-width: 0) and (max-width: $xsmall-breakpoint){@content;}
+  }
+
+  @else if $width == small {
+    @media only screen and (min-width: ($xsmall-breakpoint + em-calc(1))) and (max-width: $small-breakpoint){@content;}
+  }
+
+  @else if $width == medium {
+    @media only screen and (min-width: ($small-breakpoint + em-calc(1))) and (max-width: $medium-breakpoint){@content;}
+  }
+
+  @else if $width == large {
+    @media only screen and (min-width: ($medium-breakpoint + em-calc(1))) and (max-width: $large-breakpoint){@content;}
+  }
+
+  @else if $width == xlarge {
+    @media only screen and (min-width: ($large-breakpoint + em-calc(1))) and (max-width: $xlarge-breakpoint){@content;}
+  }
+
+  @else if $width == largeUp {
+    @media only screen and (min-width: ($medium-breakpoint + em-calc(1))){@content;}
+  }
+}

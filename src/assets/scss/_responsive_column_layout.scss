@@ -1,0 +1,72 @@
+/* -----------------------------------------------------------------------
+    responsive three-column layout
+------------------------------------------------------------------------- */
+
+
+/*  header - font size variables */
+
+$column-font-xsmall: rem-calc(16);
+$column-font-small: rem-calc(18);
+$column-font-medium: rem-calc(22);
+$column-font-large: rem-calc(24);
+
+
+/* header styles */
+
+.column-header {
+  > h2 {
+    text-align: center;
+
+    @include breakpoint(small) {
+      font-size: $column-font-xsmall;
+    }
+
+    @include breakpoint(smallish) {
+      font-size: $column-font-small;
+    }
+
+    @include breakpoint(medium) {
+      font-size: $column-font-medium;
+    }
+
+    @include breakpoint(large) {
+      font-size: $column-font-large;
+    }
+
+    @include breakpoint(xlarge) {
+      font-size: $column-font-large;
+    }
+  }
+}
+
+
+/* responsive column layout */
+
+.column-layout {
+    width: 80%;
+    margin: 0 auto;
+
+    > p {color: $secondary-font-color;}
+
+  .column-image {
+    @include border-effect();
+
+    display: block;
+    margin: $margin-small auto $margin-medium;
+    padding: rem-calc(0);
+  } /* column-image */
+} /* column-layout */
+
+.column1 {
+	/* @include breakpoint(small) {
+  } */
+		display: block;
+}
+
+.column2,
+.column3 {
+  /* @include breakpoint(small) {
+  } */
+    display: none;
+}
+

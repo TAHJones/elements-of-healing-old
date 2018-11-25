@@ -1,0 +1,220 @@
+/* -----------------------------------------------------------------------
+    images - styles & responsive layout
+----------------------------------------------------------------------- */
+
+
+img.about-thomas {
+  @include border-effect;
+
+  height: 90%;
+  margin-top: rem-calc(-5);
+  width: 90%;
+}
+
+div.consent-form {
+  > h2 {
+    margin-left: rem-calc(10);
+    margin-top: rem-calc(25);
+  }
+
+  > img {
+    @include breakpoint(smallish down) {
+      height: 100%;
+      margin-bottom: rem-calc(10);
+      margin-top: rem-calc(20);
+      width: 100%;
+    }
+
+    @include breakpoint(medium only) {
+      height: 100%;
+      margin-left: rem-calc(40);
+      margin-top: rem-calc(0);
+      width: 100%;
+    }
+
+    @include breakpoint(large) {
+      height: 100%;
+      margin-left: rem-calc(0);
+      margin-top: rem-calc(25);
+      width: 100%;
+    }
+  }
+}
+
+img.consent-form-2 {
+
+  @include breakpoint(smallish down) {
+    height: 100%;
+    margin-bottom: rem-calc(10);
+    margin-top: rem-calc(20);
+    width: 100%;
+  }
+
+  @include breakpoint(medium only) {
+    height: 100%;
+    margin: rem-calc(20) auto;
+    width: 100%;
+  }
+
+  @include breakpoint(large) {
+    @include border-effect;
+    height: 100%;
+    margin-left: rem-calc(30);
+    margin-top: rem-calc(-30);
+    width: 100%;
+  }
+}
+
+
+img.consultation-room {
+  @include border-effect;
+
+  @include breakpoint(smallish down) {
+    height: 100%;
+    margin: rem-calc(20) auto 0;
+    width: 100%;
+  }
+
+  @include breakpoint(medium only) {
+    height: 100%;
+    margin: rem-calc(20) auto 0;
+    width: 100%;
+  }
+
+  @include breakpoint(large) {
+    // @include border-effect;
+    height: 100%;
+    margin-left: rem-calc(30);
+    margin-top: rem-calc(-30);
+    width: 100%;
+  }
+}
+
+
+img.footer-logo {
+  margin: rem-calc(15) 0 rem-calc(5);
+}
+
+img.full-treatment {
+
+  @include breakpoint(smallish down) {
+    height: 100%;
+    margin: rem-calc(10) auto rem-calc(20);
+    width: 100%;
+  }
+
+  @include breakpoint(medium only) {
+    height: 100%;
+    margin: rem-calc(20) auto rem-calc(30);
+    width: 100%;
+  }
+
+  @include breakpoint(large) {
+    @include border-effect;
+    height: 100%;
+    margin: rem-calc(-30) 0 rem-calc(30) rem-calc(40);
+    width: 100%;
+  }
+}
+
+
+img.heron {
+  @include border-effect;
+  height: 85%;
+  margin-top: rem-calc(12);
+  width: 85%;
+}
+
+
+img.heron2 {
+  @include border-effect;
+
+  @include breakpoint(medium only) {
+    height: 150%;
+    margin-left: rem-calc(40);
+    margin-top: rem-calc(0);
+    width: 150%;
+  }
+
+  @include breakpoint(large) {
+    height: 90%;
+    margin-left: rem-calc(35);
+    margin-top: rem-calc(-35);
+    width: 90%;
+  }
+}
+
+
+img.homeopathic-remedy {
+  // @include border-effect;
+
+  @include breakpoint(medium only) {
+    height: 150%;
+    margin-left: rem-calc(40);
+    margin-top: rem-calc(0);
+    width: 150%;
+  }
+
+  @include breakpoint(large) {
+    height: 90%;
+    margin-left: rem-calc(50);
+    margin-top: rem-calc(-55);
+    width: 90%;
+  }
+}
+
+img.kingdom-method {
+  @include border-effect;
+  // border-width: 10px;
+
+  @include breakpoint(smallish down) {
+    margin-top: rem-calc(20);
+  }
+
+  @include breakpoint(medium only) {
+    margin-top: rem-calc(20);
+  }
+
+  @include breakpoint(large) {
+    margin: rem-calc(20) 0;
+  }
+}
+
+
+img.logo {
+  margin: rem-calc(10) 0;
+}
+
+
+img.prayer-wheel {
+  @include border-effect;
+  margin-top: rem-calc(3);
+  height: 100%;
+  width: 100%;
+}
+
+.slick-img {
+  // margin: 0 10px;
+  // padding: rem-calc(2) rem-calc(2);
+  // border: 20px solid $grey;
+  // border-width: 4px;
+  // border-style: solid;
+  // border-color: $blue-border;
+}
+
+img.river-usk {
+
+  @include breakpoint(smallish down) {
+    margin: rem-calc(10) auto 0;
+  }
+
+  @include breakpoint(medium only) {
+    margin: rem-calc(10) auto 0;
+  }
+
+  @include breakpoint(large) {
+  @include border-effect;
+    margin-left: rem-calc(40);
+    margin-top: rem-calc(10);
+  }
+}

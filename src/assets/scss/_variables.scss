@@ -1,0 +1,110 @@
+/* -----------------------------------------------------------------------
+    variables
+------------------------------------------------------------------------- */
+
+/* fonts */
+
+// $custom-font-family: "Kameron", Georgia, "Times New Roman", Times, serif;
+// $body-font-family: $custom-font-family;
+// $primary-font-stack: 'Source Sans Pro', sans-serif;
+$primary-font-stack: "Kameron", Georgia, "Times New Roman", Times, serif;
+$secondary-font-stack: 'Source Sans Pro', sans-serif, serif;
+// $secondary-font-stack: Georgia, "Times New Roman", Times, serif;
+
+/* main colors variables */
+
+$primary-color: #f2fcac; //light yellow
+$secondary-color: #2e9244; //dark green
+$tertiary-color: #344155; //dark blue
+$primary-font-color: #344155; //dark blue
+$background-color: lighten(#98d456, 10%); //light green
+
+
+
+$body-bg: $background-color;
+$page-bg: $primary-color;
+$secondary-page-bg: darken(#f2fcac, 0%);
+$tertiary-page-bg: lighten($tertiary-color, 10%);  // light blue
+$quaternary-page-bg: lighten(#222, 0%); //dark grey
+$box-color-bg: lighten($tertiary-color, 10%); // light blue
+$body-font-color: $primary-font-color;
+$secondary-font-color: $primary-color; //light yellow
+$tertiary-font-color: #516584;
+$header-color: #7dab4b; //dark green
+$secondary-header-color: lighten(#222, 30%); //#90908f; //light grey
+
+
+
+$link-color: #f5ad1d; //orange
+$link-bg-color: #344155; //dark blue
+$secondary-link-color: darken(#7dab4b, 10%); //darker green
+$dropdown-bg-color: #344155; //dark blue
+$nav-link-color: $link-color;
+$topbar-link-bg-hover: #8ee14e;
+$menu-button-color: #f5ad1d;
+$link-color-hover: $tertiary-color;
+$link-bg-hover: darken($background-color, 15%);
+
+
+/* poster color variables */
+
+$black: #000;
+$grey: #222;
+$blue: #7fb0d7;
+$green: #67de81;
+$logo-green: #8ee14e;
+$lilac: #af94c4;
+$magenta: #ae3d88;
+$orange: #f7b259;
+$red: #f8585d;
+$violet: #eb9eeb;
+$yellow: #e6ea74;
+
+
+/* page width variables */
+
+$page-width: rem-calc(1000);
+
+
+/* paragraph - font size variables */
+
+$font-size-xsmall: rem-calc(10);
+$font-size-small: rem-calc(14);
+$font-size-medium: rem-calc(16);
+$font-size-large: rem-calc(18);
+
+
+/* header - font size variables */
+
+$header-size-small: rem-calc(18);
+$header-size-medium: rem-calc(22);
+$header-size-large: rem-calc(26);
+
+
+/* margin variables */
+
+$margin-xsmall: rem-calc(5);
+$margin-small: rem-calc(10);
+$margin-medium: rem-calc(20);
+$margin-large: rem-calc(30);
+
+
+/* padding variables */
+
+$padding-small: rem-calc(10);
+$padding-medium: rem-calc(20);
+$padding-large: rem-calc(30);
+
+
+/* border - style variables */
+
+$black-shadow: rgba(255, 255, 255, 0.6);
+$light-grey-shadow: rgba(122, 91, 91, 0.6);
+$dark-grey-shadow: rgba(31, 29, 29, 0.6);
+
+$blue-border: #344155;
+$black-border: 4px solid $black;
+$grey-border: 6px solid $grey;
+$border-shadow: 0 0 2px $black-shadow;
+$light-shadow: 0 0 12px $light-grey-shadow;
+$dark-shadow: 0 0 12px $dark-grey-shadow;

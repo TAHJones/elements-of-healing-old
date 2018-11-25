@@ -1,0 +1,107 @@
+/* -----------------------------------------------------------------------
+    contact form
+------------------------------------------------------------------------- */
+
+/* form variables */
+
+$input-background: lighten($primary-color, 5%);
+$form-button-color: $link-color;
+$placeholder-color: #093a86;
+$error-color: #f00;
+
+
+/* form mixins */
+
+@mixin contactform-styles ($height: rem-calc(50), $padding-top: rem-calc(0)) {
+  background-color: $input-background;
+  border-color: lighten($tertiary-color, 0%);
+  border-radius: rem-calc(5);
+  border-width: rem-calc(4);
+  box-shadow: none;
+  color: #344155;
+  font-size: rem-calc(18);
+  font-weight: bold;
+  height: $height;
+  padding-bottom: rem-calc(0);
+  padding-left: rem-calc(8);
+  padding-right: rem-calc(8);
+  padding-top: $padding-top; 
+}
+
+
+@mixin error-styles {
+  background-color: lighten($error-color, 30%);
+  border-color: lighten($tertiary-color, 20%);
+}
+
+
+@mixin placeholder-styles($color: $placeholder-color) {
+
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+     color: $color;
+  }
+
+  &::-moz-placeholder { /* Firefox 19+ */
+     color: $color;
+  }
+
+  &:-ms-input-placeholder { /* IE 10+ */
+     color: $color;
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+     color: $color;
+  }
+}
+
+
+/* form classes */
+
+#contact-form {
+
+  input {
+    @include contactform-styles();
+    @include placeholder-styles();
+    &.error {
+      @include error-styles;
+    }
+  }
+
+  textarea {
+    @include contactform-styles(rem-calc(250), rem-calc(10));
+    @include placeholder-styles();
+    &.error {
+      @include error-styles;
+    }
+  }
+
+  input[type="submit"] {
+
+    @include button();
+
+    background-color: lighten($tertiary-color, 0%);
+    border-radius: rem-calc(5);
+    color: $form-button-color;
+    font-size: rem-calc(20);
+    margin-top: rem-calc(5);
+    padding: rem-calc(12);
+    width: 100%;
+
+    &:hover {
+      background-color: lighten($tertiary-color, 10%);
+      color: lighten(#fbab0b, 0%);
+    }
+  }
+
+  label.error {
+    color: $error-color;
+    font-weight: bold;
+    margin-bottom: rem-calc(20);
+  }
+}
+
+.contact-thomas {
+  color: $secondary-link-color;
+  font-weight: bold;
+}
+

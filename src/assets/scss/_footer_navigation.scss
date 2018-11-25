@@ -1,0 +1,102 @@
+/* -----------------------------------------------------------------------
+    footer navigation
+------------------------------------------------------------------------- */
+
+/* footer navigation variables */
+
+//$topbar-bg-color: #d6e85a;
+//$topbar-bg: $topbar-bg-color;
+//$link-color: #0e591f;
+//$link-color-hover: darken($nav-link-color, 50%);
+//$link-bg-hover: lighten($background-color, 20%);
+
+/* footer - list font size variables*/
+
+$list-font-size-small: rem-calc(10);
+$list-font-size-medium: rem-calc(12);
+$list-font-size-large: rem-calc(14);
+
+
+/* footer nav - responsive mixin */
+
+@mixin footer-nav ($font-size: $list-font-size-small, $font-weight: normal, $font-family: $primary-font-stack, $width: 33.333%) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  font-family: $font-family;
+  width: $width;
+}
+
+
+/* footer-nav */
+
+.footer-nav {
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+
+  li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    @include breakpoint(smallish down) {
+      @include footer-nav($list-font-size-small);
+    }
+
+    @include breakpoint(medium) {
+      @include footer-nav($list-font-size-medium, $width: 25%);
+    }
+
+    @include breakpoint(large) {
+      @include footer-nav($list-font-size-large, $width: 25%);
+    }
+
+    &:nth-of-type(3) {
+      @include breakpoint(smallish down) {
+        display: none;
+      }
+
+      @include breakpoint(medium only) {
+        display: inline-block;
+      }
+    }
+
+    > * {
+      background-color: $link-bg-color;
+      color: $nav-link-color;
+      display: block;
+    }
+
+    a {
+      color: $nav-link-color;
+      font-family: $primary-font-stack;
+      font-weight: bold;
+      background-color: $link-bg-color;
+      line-height: inherit;
+      padding-bottom: rem-calc(10);
+      padding-top: rem-calc(12);
+      text-decoration: none;
+      width: 100%;
+        
+      &:hover,
+      &:focus {
+        background-color: $link-bg-hover;
+        color: $link-color-hover;
+      }
+    } // a
+  } // li
+} // footer-nav
+
+
+/* footer-copyright */
+
+.footer-copyright {
+  color: $body-font-color;
+  font-size: 0.7rem;
+  text-align: center;
+}

@@ -1,0 +1,111 @@
+/* -----------------------------------------------------------------------
+    row layout
+------------------------------------------------------------------------- */
+
+
+/* row padding mixin */
+
+@mixin row-styles($row-styles) {
+  @if $row-styles == page {
+    padding: rem-calc(40) 0;
+  }
+
+  @else if $row-styles == dark {
+    background-color: $secondary-page-bg;
+    padding: rem-calc(40) 0;
+  }
+
+  @else if $row-styles == grey {
+    background-color: $quaternary-page-bg;
+    padding: rem-calc(40) 0;
+
+  }
+
+  @else if $row-styles == blue {
+    background-color: $tertiary-page-bg;
+    padding: rem-calc(40) 0;
+  }
+
+  @else if $row-styles == logo {
+    // background-color: #f2fcac; // background-color for alternative logo design
+    background-color: $black;  // background-color for standard logo design
+    padding: rem-calc(40) 0;
+  }
+
+  @else if $row-styles == slider {
+    background-color: $quaternary-page-bg; //$secondary-page-bg;
+    padding: rem-calc(50) 0 rem-calc(20);
+  }
+
+  @else if $row-styles == contact {
+    background-color: $quaternary-page-bg;
+    // background-image: linear-gradient($page-bg, $black);
+    // background-repeat: no-repeat;
+    padding: rem-calc(40) 0 rem-calc(30);
+  }
+}
+
+
+/* row layout classes */
+
+.row-page {
+  @include row-styles(page);
+}
+
+.row-padding-top {
+  padding: rem-calc(30) 0 0;
+}
+
+.row-padding-bottom {
+  padding: 0 0 rem-calc(20);
+}
+
+.row-dark {
+  @include row-styles(dark);
+}
+
+.row-grey {
+  @include row-styles(grey);
+  > div > p { 
+    &:first-child {color: $tertiary-font-color !important;}
+  }
+}
+
+.row-blue {
+  @include row-styles(blue);
+}
+
+.row-logo {
+  @include row-styles(logo);
+}
+
+.row-testimonial {
+  background-color: $page-bg;
+  padding: rem-calc(15) 0;
+}
+
+.row-copyright {
+  background-color: $black;
+}
+
+.row-contact {
+  @include row-styles(contact);
+
+}
+
+.row-slider {
+  @include row-styles(slider);
+}
+
+.row-thomas {
+  padding-bottom: rem-calc(15);
+}
+
+// layout fix for large screen size
+.row-gaining-consent {
+  padding: rem-calc(30) 0 rem-calc(20);
+
+  @include breakpoint(large) {
+    padding-top: rem-calc(0);
+  }
+}

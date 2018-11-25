@@ -1,0 +1,358 @@
+/* -----------------------------------------------------------------------
+    general styles
+------------------------------------------------------------------------- */
+
+/* body & page styles */
+
+body {
+  background-color: $body-bg !important;
+  background-image:
+    linear-gradient(
+      $black,
+      $body-bg,
+      $black
+    );
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  .page {
+    @include page-width();
+    background-color: $page-bg;
+
+    @include breakpoint(small down) {
+      background-color: lighten($page-bg, 6%);
+    }
+  }
+}
+
+
+/* header styles */
+
+h1.page-header {
+  @include header-styles(large);
+}
+
+h2.section-header {
+  @include header-styles(medium);
+  @include breakpoint(small) {
+    @include header-styles(small);    
+  }
+}
+
+h3.section-header {
+  @include header-styles(small);
+}
+
+/* header style fixes */
+
+h2.consent-form-header {
+  color: $header-color;
+  font-size: $header-size-small !important;
+  font-family: $primary-font-stack;
+  margin:  rem-calc(-50) 0 rem-calc(0);
+}
+
+
+/* general paragraph styles */
+
+p {
+  color: $body-font-color;
+  font-family: $secondary-font-stack;
+  line-height: 1.6;
+  text-align: justify;
+  text-rendering: optimizeLegibility;
+
+  @include breakpoint(small down) {
+    @include paragraph-responsive();
+  }
+
+  @include breakpoint(medium only) {
+    @include paragraph-responsive($font-size-medium);
+  }
+
+  @include breakpoint(large) {
+    @include paragraph-responsive($font-size-large);
+  }
+}
+
+.row-grey {
+  > div > h2 {
+    color: $secondary-header-color;
+    font-family: $primary-font-stack;
+    font-size: $header-size-medium;
+  }
+
+  > div > p {
+    @include paragraph-italic($font-size-medium);
+    color: $secondary-font-color;
+    // font-size($font-size-large);
+    // color: $tertiary-font-color;
+  }
+}
+
+.row-contact {
+  > div h2 {
+    color: $header-color;
+  }
+  > div p {
+    @include paragraph-italic();
+    color: $secondary-font-color;
+    // color: $tertiary-font-color;    
+  }
+}
+
+/* .styles-grey {
+  p {color: $tertiary-font-color !important;}
+} */
+
+
+/* secondary paragraph styles */
+
+/* .secondary-styles {
+  > h4 {
+    @include header-styles(secondary);
+  }
+
+  > p {
+    @include paragraph-italic();
+    color: $secondary-font-color;
+  }
+
+  > img {
+    @include border-effect;
+    margin-left: $margin-small;
+  }
+} */
+
+
+/* tertiary paragraph styles */
+
+.tertiary-styles {
+  > h4 {
+    @include header-styles(tertiary);
+  }
+
+  > p {
+    @include paragraph-italic();
+    color: $secondary-font-color;
+  }
+}
+
+
+/* testimonial paragraph styles */
+
+.testimonial-styles {
+  margin: 20px 20px;
+  padding: 20px 20px;
+  font-color: $secondary-font-color;
+  @include blue-box();
+  @include border-effect();
+
+  > h4 {
+   font-size: rem-calc(14);
+ }
+ 
+ > p {
+   @include paragraph-italic();
+   color: $secondary-font-color;
+ }
+}
+
+
+/* list styles */
+
+.list-styles-1 { // used on kingdom method page
+  > h3 {
+    color: $header-color; //darken($secondary-font-color, 40%);
+    font-family: $primary-font-stack;
+    font-size: $header-size-medium;
+    margin: rem-calc(50) 0 rem-calc(20) rem-calc(20);
+
+    @include breakpoint(medium only) {
+      margin-left: rem-calc(40);
+    }
+
+    @include breakpoint(large) {
+      margin-top: $margin-medium;
+    }
+
+  }
+
+  > ul > li {
+    @include list-styles(primary);
+
+    @include breakpoint(medium only) {
+      margin-left: rem-calc(40);
+    }
+
+    @include breakpoint(large) {
+      margin-left: $margin-small;
+      font-size: rem-calc(18);
+    }
+
+    &:first-child {
+      margin-top: $margin-medium;
+    }
+
+    &:last-child {
+      margin-bottom: $margin-large;
+    }
+  }
+}
+
+.list-styles-2 { // used of homeopathic consultation page
+  > h3 {
+    color: $header-color;
+    font-family: $primary-font-stack;
+    font-size: $header-size-medium;
+    margin: rem-calc(50) 0 rem-calc(20) rem-calc(20);
+
+    @include breakpoint(medium only) {
+      margin-left: rem-calc(40);
+    }
+
+    @include breakpoint(large) {
+      margin-top: $margin-medium;
+    }
+
+  }
+
+  > ul > li {
+    @include list-styles(tertiary);
+
+    @include breakpoint(medium only) {
+      margin-left: rem-calc(40);
+    }
+
+    @include breakpoint(large) {
+      margin-left: $margin-small;
+      font-size: rem-calc(16);
+    }
+
+    &:first-child {
+      margin-top: $margin-medium;
+    }
+
+    &:last-child {
+      margin-bottom: $margin-large;
+    }
+  }
+}
+
+.list-styles-2 {
+  > h3 {
+    @include header-styles(list);
+  }
+
+  > ul > li {
+    @include list-styles(secondary);
+  }
+}
+
+.list-styles-3 {
+  > h3 {
+    @include header-styles(list);
+  }
+
+  > ul > li {
+    color: $primary-font-color;
+    font-family: $secondary-font-stack;
+
+    @include breakpoint(smallish down) {
+      font-size: $font-size-small;
+      list-style-type: square;
+      margin-bottom: $margin-xsmall;
+      margin-left: $margin-large;
+
+      &:first-child {
+        margin-top: $margin-small;
+      }
+
+      &:last-child {
+        margin-bottom: $margin-large;
+      }
+    }
+
+    @include breakpoint(medium only) {
+      font-size: $font-size-medium;
+      list-style-type: square;
+      margin-bottom: $margin-xsmall;
+      margin-left: $margin-large;
+
+      &:first-child {
+        margin-top: $margin-small;
+      }
+
+      &:last-child {
+        margin-bottom: $margin-large;
+      }
+    }
+
+    @include breakpoint(large) {
+      font-size: $font-size-medium;
+      list-style-type: square;
+      margin-bottom: $margin-small;
+      margin-left: $margin-large;
+
+      &:first-child {
+        margin-top: $margin-large;
+      }
+
+      &:last-child {
+        margin-bottom: $margin-large;
+      }
+    }
+  }
+}
+
+/* .list-styles-4 {
+  > h3 {
+    @include header-styles(small);
+  }
+
+  > ol > li {
+    @include list-styles(ordered);
+  }
+} */
+
+
+/* Individual list header styles */
+
+.animal-kingdom {
+  > h3 {
+    color: darken($red, 10%);
+    font-size: $header-size-medium;
+  }
+}
+
+.plant-kingdom {
+  > h3 {
+    color: $green;
+    font-size: $header-size-medium;
+  }
+}
+
+.mineral-kingdom {
+  > h3 {
+    color: darken($violet, 10%);
+    font-size: $header-size-medium;
+  }
+}
+
+
+/* link styles */
+
+a.page-link {
+  color: $secondary-link-color;
+  font-style: bold;
+  line-height: inherit;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: #f5ad1d;
+    text-decoration: underline;
+  }
+}
