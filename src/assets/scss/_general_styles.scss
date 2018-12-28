@@ -6,7 +6,7 @@
 
 body {
   background-color: $body-bg !important;
-  background-image:
+  /* background-image:
     linear-gradient(
       $black,
       $body-bg,
@@ -15,7 +15,7 @@ body {
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 
   .page {
     @include page-width();

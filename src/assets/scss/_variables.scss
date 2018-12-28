@@ -13,11 +13,11 @@ $secondary-font-stack: 'Source Sans Pro', sans-serif, serif;
 
 /* main colors variables */
 
-$primary-color: #f2fcac; //light yellow
+$primary-color: lighten(#f2fcac, 10%); //light yellow
 $secondary-color: #2e9244; //dark green
 $tertiary-color: #344155; //dark blue
 $primary-font-color: #344155; //dark blue
-$background-color: lighten(#98d456, 10%); //light green
+$background-color: #6ba265; // dark green
 
 
 
@@ -31,7 +31,7 @@ $body-font-color: $primary-font-color;
 $secondary-font-color: $primary-color; //light yellow
 $tertiary-font-color: #516584;
 $header-color: #7dab4b; //dark green
-$secondary-header-color: lighten(#222, 30%); //#90908f; //light grey
+$secondary-header-color: #7dab4b; //dark green
 
 
 
